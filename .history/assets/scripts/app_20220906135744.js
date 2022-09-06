@@ -6,8 +6,10 @@ function addition(num1, num2) {
   return result;
 }
 
-currentResult = addition(10, 20);
+currentResult = ((currentResult + 10) * 3) / 2 - 1;
 
 let calculateDescription = `(${defaultResult} + 10 ) * 3 / 2 - 1 `;
 
 outputResult(currentResult, calculateDescription);
+
+const additionResult = addition(10, 20);
