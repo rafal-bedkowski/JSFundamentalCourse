@@ -14,31 +14,28 @@ function addition() {
   const enteredNumber = getUserNumberInput();
   const initialResult = currentResult;
   currentResult = currentResult + enteredNumber;
-  createAndWriteOutput('+', initialResult, enteredNumber);
+  createAndWriteOutput('+', resultBeforeCalc, calcNumber);
 }
 
 function subtraction() {
   const enteredNumber = getUserNumberInput();
-  const initialResult = currentResult;
+  const calcDescription = `${currentResult} - ${enteredNumber}`;
   currentResult = currentResult - enteredNumber;
-  createAndWriteOutput('-', initialResult, enteredNumber);
+  outputResult(currentResult, calcDescription);
 }
 
 function multiplication() {
   const enteredNumber = getUserNumberInput();
-  const initialResult = currentResult;
+  const calcDescription = `${currentResult} * ${enteredNumber}`;
   currentResult = currentResult * enteredNumber;
-  createAndWriteOutput('*', initialResult, enteredNumber);
+  outputResult(currentResult, calcDescription);
 }
 
 function divided() {
   const enteredNumber = getUserNumberInput();
-  const initialResult = currentResult;
+  const calcDescription = `${currentResult} / ${enteredNumber}`;
   currentResult = currentResult / enteredNumber;
-  createAndWriteOutput('/', initialResult, enteredNumber);
+  outputResult(currentResult, calcDescription);
 }
 
 addBtn.addEventListener('click', addition);
-subtractBtn.addEventListener('click', subtraction);
-multiplyBtn.addEventListener('click', multiplication);
-divideBtn.addEventListener('click', divided);
