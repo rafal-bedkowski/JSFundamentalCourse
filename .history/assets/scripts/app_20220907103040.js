@@ -2,8 +2,10 @@ const defaultResult = 0;
 let currentResult = defaultResult;
 
 function addition() {
-  currentResult = currentResult + parseInt(userInput.value);
-  outputResult(currentResult, '');
+  const result = currentResult + userInput.value;
+  return result;
 }
 
 addBtn.addEventListener('click', addition);
+
+outputResult(currentResult, calculateDescription);

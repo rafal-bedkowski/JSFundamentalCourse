@@ -2,7 +2,7 @@ const defaultResult = 0;
 let currentResult = defaultResult;
 
 function addition() {
-  currentResult = currentResult + parseInt(userInput.value);
+  currentResult = currentResult + userInput.value;
   outputResult(currentResult, '');
 }
 
