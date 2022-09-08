@@ -11,7 +11,7 @@
 * [Project Status](#project-status)
 
 ## General Information
-- Simple landing page mostly build with the Tailwind CSS framework
+- the JavaScript course, showing my progress. Contain course files and challanges
 
 ## Technologies Used
 - Vanila JS
