@@ -1,7 +1,7 @@
 ![cover](src/assets/img/tailwindTitlePage.png)
 
 # Java Script Course progress repo
-> Live demo [_here_]().
+> Live demo [_here_](#).
 
 ## Table of Contents
 * [General Info](#general-information)
