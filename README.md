@@ -1,5 +1,3 @@
-![cover](src/assets/img/tailwindTitlePage.png)
-
 # Java Script Course progress repo
 > Live demo [_here_](#).
 
