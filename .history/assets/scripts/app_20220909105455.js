@@ -18,22 +18,21 @@ function writeToLog(
   prevResult,
   operationNumber,
   newResult
-) {
-  const logEntry = {
-    operation: operationIdentifier,
-    prevResult: prevResult,
-    number: operationNumber,
-    result: newResult,
-  };
-  logEntries.push(logEntry);
-  console.log(logEntries);
-}
+) {}
 
 function addition() {
   const enteredNumber = getUserNumberInput();
   const initialResult = currentResult;
   currentResult += enteredNumber;
   createAndWriteOutput('+', initialResult, enteredNumber);
+  const logEntry = {
+    operation: 'ADD',
+    prevResult: initialResult,
+    number: enteredNumber,
+    result: currentResult,
+  };
+  logEntries.push(logEntry);
+  console.log(logEntries);
 }
 
 function subtraction() {

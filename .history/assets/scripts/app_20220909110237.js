@@ -22,8 +22,8 @@ function writeToLog(
   const logEntry = {
     operation: operationIdentifier,
     prevResult: prevResult,
-    number: operationNumber,
-    result: newResult,
+    number: enteredNumber,
+    result: currentResult,
   };
   logEntries.push(logEntry);
   console.log(logEntries);

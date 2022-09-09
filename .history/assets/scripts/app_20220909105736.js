@@ -20,10 +20,10 @@ function writeToLog(
   newResult
 ) {
   const logEntry = {
-    operation: operationIdentifier,
-    prevResult: prevResult,
-    number: operationNumber,
-    result: newResult,
+    operation: 'ADD',
+    prevResult: initialResult,
+    number: enteredNumber,
+    result: currentResult,
   };
   logEntries.push(logEntry);
   console.log(logEntries);
