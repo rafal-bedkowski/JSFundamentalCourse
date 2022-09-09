@@ -11,11 +11,9 @@
     />
     <link rel="stylesheet" href="./assets/styles/app.css" />
     <script src="./assets/scripts/vendor.js" defer></script>
-    <!--defer gets our script download earlier but executed only after html pharsing is finish, with correct order first vendor second app.js -->
-    <script src="./assets/scripts/app.js" defer></script>
-    <!--async the script is loading earlier, and right after download it's finish the script is run, good option if our html is not combined with the script, pharsing of html will be continued after script will be executed-->
-    <!--async will be great solution but only if we have 1 script, coz if we have 2 script, when app.js will load faster it will not wait for the vendor.js file--->
-    <!--so our order will be non, defer gives us an order, and wait till everything is download and then executed with the correct order-->
+    <!--defer gets our script download earlier but executed only after html pharsing is finish -->
+    <script src="./assets/scripts/app.js" async></script>
+    <!--async the script is loading earlier, and right after download it's finish the script is run, good option if our html is not combined with the script-->
   </head>
   <body>
     <header>
