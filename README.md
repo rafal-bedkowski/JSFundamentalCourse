@@ -23,7 +23,9 @@
 
 ## Setup
 
-git clone the project on your machine  
+clone project on your PC/MAC
+
+scripts will show up further withe the project upgrade
 in progress
 
 Scripts you can use:
