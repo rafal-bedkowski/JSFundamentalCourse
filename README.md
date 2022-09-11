@@ -4,7 +4,6 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Project Status](#project-status)
 
@@ -15,9 +14,6 @@
 - Vanila JS
 - HTML 5
 - CSS
-
-
-## Screenshots
 
 
 
