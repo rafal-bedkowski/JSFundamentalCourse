@@ -38,7 +38,6 @@ function calculateResult(callculationType) {
     mathOperator = '+';
   } else {
     currentResult -= enteredNumber;
-    mathOperator = '-';
   }
 
   createAndWriteOutput('+', initialResult, enteredNumber);
