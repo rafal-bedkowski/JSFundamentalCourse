@@ -4,7 +4,6 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Project Status](#project-status)
 
@@ -17,13 +16,12 @@
 - CSS
 
 
-## Screenshots
-
-
 
 ## Setup
 
-git clone the project on your machine  
+clone project on your PC/MAC
+
+scripts will show up further withe the project upgrade
 in progress
 
 Scripts you can use:
