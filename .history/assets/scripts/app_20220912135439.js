@@ -32,14 +32,12 @@ function writeToLog(
 function calculateResult(callculationType) {
   const enteredNumber = getUserNumberInput();
   const initialResult = currentResult;
-  if (callculationType === 'ADD') {
+  if (callculationType === 'add') {
     currentResult += enteredNumber;
-  } else {
-    currentResult -= enteredNumber;
   }
 
   createAndWriteOutput('+', initialResult, enteredNumber);
-  writeToLog(callculationType, initialResult, enteredNumber, currentResult);
+  writeToLog('ADD', initialResult, enteredNumber, currentResult);
 }
 
 function addition() {

@@ -34,8 +34,6 @@ function calculateResult(callculationType) {
   const initialResult = currentResult;
   if (callculationType === 'ADD') {
     currentResult += enteredNumber;
-  } else {
-    currentResult -= enteredNumber;
   }
 
   createAndWriteOutput('+', initialResult, enteredNumber);
