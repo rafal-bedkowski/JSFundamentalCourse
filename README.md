@@ -8,12 +8,13 @@
 * [Project Status](#project-status)
 
 ## General Information
-- the JavaScript course, showing my progress. Contain course files and challanges
+- the JavaScript course, showing my progress. Contain course files and challanges, JS DRY aproach
 
 ## Technologies Used
 - Vanila JS
-- HTML 5
+- HTML5
 - CSS
+
 
 
 
