@@ -50,7 +50,11 @@ function addition() {
 }
 
 function subtraction() {
-  calculateResult('SUBTRACT');
+  const enteredNumber = getUserNumberInput();
+  const initialResult = currentResult;
+  currentResult -= enteredNumber;
+  createAndWriteOutput('-', initialResult, enteredNumber);
+  writeToLog('SUBTRACT', initialResult, enteredNumber, currentResult);
 }
 
 function multiplication() {
