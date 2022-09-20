@@ -60,11 +60,17 @@ function subtraction() {
 }
 
 function multiplication() {
-  calculateResult('MULTIPLICATION');
+  const enteredNumber = getUserNumberInput();
+  const initialResult = currentResult;
+  createAndWriteOutput('*', initialResult, enteredNumber);
+  writeToLog('MULTIPLICATION', initialResult, enteredNumber, currentResult);
 }
 
 function divided() {
-  calculateResult('DIVIDED');
+  const enteredNumber = getUserNumberInput();
+  const initialResult = currentResult;
+  createAndWriteOutput('/', initialResult, enteredNumber);
+  writeToLog('DIVISION', initialResult, enteredNumber, currentResult);
 }
 
 addBtn.addEventListener('click', addition);
