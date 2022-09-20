@@ -30,15 +30,6 @@ function writeToLog(
 }
 
 function calculateResult(callculationType) {
-  if (
-    callculationType !== 'ADD' &&
-    callculationType !== 'SUBTRACT' &&
-    callculationType !== 'MULTIPLICATION' &&
-    callculationType !== 'DIVIDED'
-  ) {
-    return; //if calcType are not valid the if statement will return, the rest of the function will be not executed
-  }
-
   const enteredNumber = getUserNumberInput();
   const initialResult = currentResult;
   let mathOperator;
@@ -56,6 +47,14 @@ function calculateResult(callculationType) {
     mathOperator = '/';
   }
 
+  if (
+    callculationType !== 'ADD' &&
+    callculationType !== 'SUBTRACT' &&
+    callculationType !== 'MULTIPLICATION' &&
+    callculationType !== 'DIVIDED'
+  ) {
+    return;
+  }
   createAndWriteOutput(mathOperator, initialResult, enteredNumber);
   writeToLog(callculationType, initialResult, enteredNumber, currentResult);
 }

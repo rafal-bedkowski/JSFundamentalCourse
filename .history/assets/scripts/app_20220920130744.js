@@ -36,7 +36,7 @@ function calculateResult(callculationType) {
     callculationType !== 'MULTIPLICATION' &&
     callculationType !== 'DIVIDED'
   ) {
-    return; //if calcType are not valid the if statement will return, the rest of the function will be not executed
+    return; //if calcType are not valid the if statement will return, the rest of the code will be not executed
   }
 
   const enteredNumber = getUserNumberInput();
