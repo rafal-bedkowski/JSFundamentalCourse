@@ -1,7 +1,7 @@
 const defaultResult = 0;
 let currentResult = defaultResult;
 let logEntries = [];
-
+//small changes
 //get the input from input field
 function getUserNumberInput() {
   return parseInt(userInput.value);
