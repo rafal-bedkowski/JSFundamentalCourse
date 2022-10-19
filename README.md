@@ -5,7 +5,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Setup](#setup)
-* [Project Status](#project-status)
+* [Status](#project-status)
 
 ## General Information
 - the JavaScript course, showing my progress. Contain course files and challanges, JS DRY aproach
