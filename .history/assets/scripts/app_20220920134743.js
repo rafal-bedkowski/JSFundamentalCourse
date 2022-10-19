@@ -36,7 +36,7 @@ function calculateResult(callculationType) {
       callculationType !== 'SUBTRACT' &&
       callculationType !== 'MULTIPLICATION' &&
       callculationType !== 'DIVIDED') ||
-    !enteredNumber //if enteredNumber is a falsy value, execute return
+    enteredNumber === 0
   ) {
     return; //if calcType are not valid the if statement will return, the rest of the function will be not executed
   }
